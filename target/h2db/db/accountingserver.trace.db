@@ -1,0 +1,9 @@
+2019-04-03 19:52:22 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "DATABASECHANGELOGLOCK" not found; SQL statement:
+select count(*) from PUBLIC.DATABASECHANGELOGLOCK [42102-197]
+2019-04-03 22:59:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "'21,12' (CARI_HESAP_HAREKET: AMOUNT DECIMAL(19, 2))"; SQL statement:
+INSERT INTO "PUBLIC"."CARI_HESAP_HAREKET"("LOGICALREF","AMOUNT","CLIENTREF")VALUES(?,?,?) -- (?1, ?2, ?3) [22018-197]
+2019-04-03 22:59:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "'21,12' (CARI_HESAP_HAREKET: AMOUNT DECIMAL(19, 2))"; SQL statement:
+INSERT INTO "PUBLIC"."CARI_HESAP_HAREKET"("LOGICALREF","AMOUNT","CLIENTREF")VALUES(?,?,?) -- (?1, ?2, ?3) [22018-197]
